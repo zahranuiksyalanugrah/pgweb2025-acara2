@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bantul</a> <!--Baru-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!--Baru bisa ms jika mau di kiri-->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Deskripsi">Deskripsi</a> <!--Langsung Scroll-->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Penduduk">Jumlah Penduduk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Kecamatan">Kecamatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Website">Website</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Foto-Video">Gambar</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+    <main class="container mt-3"> <!-- Spasi -->
+        <!-- title -->
+        <div class="alert alert-primary" role="alert">
+            <h2>Yogyakarta</h2>
+            <h5>D.I.Yogyakarta</h5>
+        </div>
+
+        <!-- Deskripsi -->
+         <div class="card" id="Deskripsi"> <!--Langsung Scroll-->
+            <div class="card-header">
+                Deskripsi
+            </div>
+            <div class="card-body">
+                <p class="card-text">Kota Yogyakarta (bahasa Jawa: ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Ngayogyakarta,
+                  pengucapan bahasa Jawa: [kuʈɔ ŋajogjɔˈkart̪ɔ], atau dikenal oleh masyarakat setempat
+                  dengan sebutan nama Yogya atau Jogja) adalah ibu kota sekaligus pusat pemerintahan
+                  dan perekonomian Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota yang
+                  mempertahankan konsep tradisional dan budaya Jawa.</p>
+                <p class="card-text">Salah satu kemantren di Yogyakarta, yaitu Kotagede
+                  (Kuthagedhe dalam penulisan bahasa Jawa) pernah menjadi pusat Kesultanan Mataram
+                  antara kurun tahun 1575–1640. Kini, Yogyakarta menjadi tempat tinggal dua penerus Mataram,
+                  yakni Sultan Hamengkubuwana dan Adipati Paku Alam, yang berada di Keraton Ngayogyakarta
+                  dan Pura Pakualaman.</p>
+            </div>
+        </div>
+
+            <!-- Penduduk -->
+            <div class="card mt-3" id="Penduduk"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Penduduk
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <th>No</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Laki-laki</td>
+                            <td>202.478 jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Perempuan</td>
+                            <td>213.127 jiwa</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Total</td>
+                            <td>415.605 jiwa</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Kecamatan -->
+             <div class="card mt-3" id="Kecamatan"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Kecamatan
+                </div>
+                <div class="card-body">
+                    <ol> <!-- list bernomor -->
+                        <li>Danurejan</li> <!-- Item list -->
+                        <li>Gedongtengen</li>
+                        <li>Gondokusuman</li>
+                        <li>Gondomanan</li>
+                        <li>Jetis</li>
+                        <li>Kotagede</li>
+                        <li>Kraton</li>
+                        <li>Mantrijeron</li>
+                        <li>Mergangsan</li>
+                        <li>Ngampilan</li>
+                        <li>Pakualaman</li>
+                        <li>Tegalrejot</li>
+                        <li>Umbulharjo</li>
+                        <li>Wirobrajan</li>
+                    </ol> <!-- Penutup list bernomor -->
+                </div>
+            </div>
+
+            <!-- Link Website -->
+             <div class="card mt-3" id="Website"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Link Website
+                </div>
+                <div class="card-body">
+                    <a href="https://jogjakota.go.id/" target="_blank" rel="noopener noreferrer" 
+                    title="Klik Untuk Membuka Website">Website Pemkot Kota Jogja</a>
+                </div>
+            </div>
+
+            <!-- Foto & Video -->
+             <div class="card mt-3" id="Foto-Video"> <!--Spasi--> <!--Langsung Scroll-->
+                <div class="card-header">
+                    Foto & Video
+                </div>
+                <div class="card-body">
+                    <img src="Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg" alt="Ini Harusnya Gambar" 
+                    height="200px" title="Tugu Jogja">
+                    
+                    <br><br>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z_lvZLnsnhI?si=kfnEosNYl7b5o_NC" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
